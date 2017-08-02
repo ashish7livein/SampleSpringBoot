@@ -1,0 +1,8 @@
+server:
+  port: ${PORT:8800}
+  contextPath: /samples
+  tomcat:
+    basedir: .
+    accesslog:
+      enabled: true
+      pattern: '%h %u %t "%r" %s %b %D'
