@@ -10,4 +10,9 @@ public class SampleController {
   public String index() {
     return "Greetings from Spring Boot From Ashish!";
   }
+
+  @RequestMapping("/something")
+  public String something() {
+    return "Here is something";
+  }
 }
