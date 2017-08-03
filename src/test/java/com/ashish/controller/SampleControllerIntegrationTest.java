@@ -22,6 +22,6 @@ public class SampleControllerIntegrationTest {
     @Test
     public void getHello() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON)).andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.content().string("Greetings from Spring Boot!"));
+                .andExpect(MockMvcResultMatchers.content().string("Greetings from Spring Boot From Ashish!"));
     }
 }
