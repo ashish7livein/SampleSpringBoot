@@ -7,6 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+//Jenkins Execute Shell: BUILD_ID=dontKillMe /Users/ashishkumar.ashok/Desktop/SampleSpringBoot/api-deploy.sh dev 8800 SampleSpringBoot application.yml
 @SpringBootApplication
 public class SampleSpringBootApplication {
 

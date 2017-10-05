@@ -8,11 +8,11 @@ public class SampleController {
     
   @RequestMapping("/")
   public String index() {
-    return "Greetings from Spring Boot From Ashish!";
+    return "Greetings from Spring Boot From Ashish ASHOK!";
   }
 
   @RequestMapping("/something")
   public String something() {
-    return "Here is something";
+    return "Here is something and this";
   }
 }
