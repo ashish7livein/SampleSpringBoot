@@ -13,6 +13,6 @@ public class SampleController {
 
   @RequestMapping("/something")
   public String something() {
-    return "Here is something and this and that";
+    return "Here is something and this and that!!";
   }
 }
